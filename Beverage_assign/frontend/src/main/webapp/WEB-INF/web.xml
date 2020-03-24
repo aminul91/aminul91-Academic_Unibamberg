@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+
+	<display-name>BeverageStoreUI</display-name>
+
+	<!-- Servlets -->
+
+	<!-- JSPs -->
+	<servlet>
+		<servlet-name>Main</servlet-name>
+		<jsp-file>main.jsp</jsp-file>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Main</servlet-name>
+		<url-pattern>/</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>NewIncentive</servlet-name>
+		<jsp-file>incentive_form.jsp</jsp-file>
+	</servlet>
+	<servlet>
+		<servlet-name>NewBeverage</servlet-name>
+		<jsp-file>beverage_form.jsp</jsp-file>
+	</servlet>
+
+	<servlet>
+		<description>
+		</description>
+		<display-name>IncentiveServlet</display-name>
+		<servlet-name>IncentiveServlet</servlet-name>
+		<servlet-class>de.uniba.dsg.dsam.client.IncentiveServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>ReportServlet</display-name>
+		<servlet-name>ReportServlet</servlet-name>
+		<servlet-class>de.uniba.dsg.dsam.client.ReportServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<display-name>BeveragesServlet</display-name>
+		<servlet-name>BeveragesServlet</servlet-name>
+		<servlet-class>de.uniba.dsg.dsam.client.BeveragesServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>NewBeverage</servlet-name>
+		<url-pattern>/beverages/beverage_form</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>NewIncentive</servlet-name>
+		<url-pattern>/incentives/incentive_form</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>IncentiveServlet</servlet-name>
+		<url-pattern>/incentives</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>BeveragesServlet</servlet-name>
+		<url-pattern>/beverages</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ReportServlet</servlet-name>
+		<url-pattern>/report</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>OrderJMSQueueServlet</servlet-name>
+		<servlet-class>de.uniba.dsg.dsam.client.OrderJMSQueueServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>OrderJMSQueueServlet</servlet-name>
+		<url-pattern>/createorder</url-pattern>
+</servlet-mapping>
+
+</web-app>
