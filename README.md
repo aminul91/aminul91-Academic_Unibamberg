@@ -8,3 +8,7 @@ Voting MAchine System: A web application for online voting system. Google App En
 Student Dormatory System: A Master level Project which is basically a web application for Student Dormatory System. Programming language java.Databse MySQL DB
 
 Service Oriented Architecture Project: In this project Service was invoke with the implementation of Both REST and SOAP. JAXRS and JAXWS libray of JAVA have been implemented
+
+Distributed System Project: Basically the implementation of  Server Client Architecture with difference types of implementation such as UDP,JMS, Google RPC, JAXWS .programming language : Java
+
+Pet Counter: Android Application for counting Cow according to the Breed.It is the assignment of Mobile Software System Course at Master Level
