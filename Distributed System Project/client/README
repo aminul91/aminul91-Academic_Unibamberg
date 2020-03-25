@@ -1,0 +1,11 @@
+For JMS Communication required configuration:
+
+Use 4 command line argument
+
+argument-1: "JMS"
+
+argument-2: JMS Connection Factory Lookup Name
+
+argument-3: JMS Queue Lookup name
+
+argument-4: Object Store path in your local/remote machine
