@@ -6,3 +6,5 @@ Beverage Store: An EJB Application where programming langage is java. PostgreSQL
 Voting MAchine System: A web application for online voting system. Google App Engine has been implemented here.Programming language- Java
 
 Student Dormatory System: A Master level Project which is basically a web application for Student Dormatory System. Programming language java.Databse MySQL DB
+
+Service Oriented ArchiTecture Project: In this project Service was invoke with the implementation of Both REST and SOAP. JAXRS and JAXWS libray of JAVA have been implemented
