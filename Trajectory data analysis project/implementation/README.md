@@ -1,14 +1,14 @@
 # Trajectory data anaysis project
 
 **Implementation**
-1.Here to algorithm DBSCAN and distance based algorithm implemented on the data set for detecting staypoint
-2.We defined stay point in a way if a user stays in a point minimum 600 second for distanced based algorithm
-3.We create clusters with minimum 10 points and 0.02 km for dbscn.Then the centre of cluter we defeined as stay point
-4.In this way we found staypoints with two different algorithm for public dataset and our collected dataset.THen we compared and evaluated the result 
+1.Here to algorithm DBSCAN and distance based algorithm implemented on the data set for detecting staypoint</br>
+2.We defined stay point in a way if a user stays in a point minimum 600 second for distanced based algorithm </br>
+3.We create clusters with minimum 10 points and 0.02 km for dbscn.Then the centre of cluter we defeined as stay point </br>
+4.In this way we found staypoints with two different algorithm for public dataset and our collected dataset.THen we compared and evaluated the result </br>
 
-Initial steps cluster plotting codes at graph has been attcahed for DBSCAN at the folder "  Plot_cluster_initial step".
-for a single file has been checked.
-The final implementaion and commit process of DBSCAN is present in staypoint_detection_dbscan.py and geolife_staypoint_detection.py file
+Initial steps cluster plotting codes at graph has been attcahed for DBSCAN at the folder "  Plot_cluster_initial step".</br>
+for a single file has been checked.</br>
+The final implementaion and commit process of DBSCAN is present in staypoint_detection_dbscan.py and geolife_staypoint_detection.py file</br>
 
 **Uploading data to the database**
 1. Download geolife from this [https://heremaps.github.io/pptk/tutorials/viewer/geolife.html](url)
