@@ -1,8 +1,10 @@
-# task2-groupA
+# Trajectory data anaysis project
 
 **Implementation**
-
-The implementation of the task2 is in the **implementation** folder
+1.Here to algorithm DBSCAN and distance based algorithm implemented on the data set for detecting staypoint
+2.We defined stay point in a way if a user stays in a point minimum 600 second for distanced based algorithm
+3.We create clusters with minimum 10 points and 0.02 km for dbscn.Then the centre of cluter we defeined as stay point
+4.In this way we found staypoints with two different algorithm for public dataset and our collected dataset.THen we compared and evaluated the result 
 
 Initial steps cluster plotting codes at graph has been attcahed for DBSCAN at the folder "  Plot_cluster_initial step".
 for a single file has been checked.
@@ -16,7 +18,9 @@ The final implementaion and commit process of DBSCAN is present in staypoint_det
 5. Make sure that in your database there is **geolifeDataset** and **result-groupA** tables. (Structures were defined by Mobi chair)
 6. Run **read_geolife.py** file. Finally check the **geolifeDataset** table for inserted trajectories.
 
-
+**Uploading our own data to the database**
+1.We have inserted our own data collected at Bamberg by a python script
+2.We have wriiten insert outdoor data,insert outfoor ground truth and other insert python script to insert data at server from our collected csv file
 
 **Staypoint detection**
 1. Insert your database credentials into database.ini file.
@@ -30,12 +34,9 @@ The final implementaion and commit process of DBSCAN is present in staypoint_det
 4. Run **geolife_staypoint_detection.py** file. Finally check the **result-groupA** table for inserted staypoints.
 
 
-**Group A Report**
-<br>
- Final_report_groupA.pdf #ab4a9583b98b4b9f2b8dde1aa367c34290db7c58
 
 
-# task4-groupA
+# ** DATA INSERTION * 
 
 ** DATA INSERTION
 	*Everyone data as csv file is in the folder GroupAdata_task4_Backup.Outdoor data is different folder according to the name. Indoor  	     data ground truth in single file for all members.
