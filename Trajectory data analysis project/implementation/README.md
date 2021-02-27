@@ -1,6 +1,6 @@
 # Trajectory data anaysis project
 
-**Implementation**
+**Implementation**</br>
 1.Here to algorithm DBSCAN and distance based algorithm implemented on the data set for detecting staypoint</br>
 2.We defined stay point in a way if a user stays in a point minimum 600 second for distanced based algorithm </br>
 3.We create clusters with minimum 10 points and 0.02 km for dbscn.Then the centre of cluter we defeined as stay point </br>
